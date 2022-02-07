@@ -11816,6 +11816,7 @@ p.lead {
   padding-top: 1rem;
   padding-bottom: 2rem;
   width: 90%;
+  height: 50%;
 
   max-width: 90rem;
   max-height: fit-content;
@@ -11994,6 +11995,7 @@ h6 {
   background-color: white;
   margin-top: 0%;
   margin-bottom: 3%;
+  margin-right: 0%;
 
   padding-left: 2%;
 }
