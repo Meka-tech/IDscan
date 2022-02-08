@@ -11808,7 +11808,6 @@ p.lead {
 }
 
 .resume-section {
-  position: relative;
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -11817,7 +11816,6 @@ p.lead {
   padding-bottom: 2rem;
   width: 90%;
   height: 50%;
-
   max-width: 90rem;
   max-height: fit-content;
 }
@@ -11930,12 +11928,14 @@ hr {
   background-color: #067bb40d;
   border-radius: 8px;
   width: 400px;
-  height: 130px;
-  max-height: fit-content;
+  height: auto;
+  display: inline;
+
   padding: 5%;
   padding-top: 1%;
   border-style: solid;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  max-height: fit-content;
   text-transform: uppercase;
 }
 .pill:hover {
@@ -11996,6 +11996,8 @@ h6 {
   margin-top: 0%;
   margin-bottom: 3%;
   margin-right: 0%;
+  position: fixed;
+  top: 0%;
 
   padding-left: 2%;
 }
@@ -12009,4 +12011,10 @@ h6 {
   .banner {
     display: none;
   }
+}
+.lowban {
+  margin-top: 0%;
+  position: absolute;
+  bottom: 0;
+  margin-left: 35%;
 }
