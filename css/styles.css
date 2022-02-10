@@ -12034,3 +12034,6 @@ h6 {
     bottom: 5vh;
   }
 }
+a:link {
+  text-decoration: none;
+}
